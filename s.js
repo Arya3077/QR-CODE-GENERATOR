@@ -40,12 +40,12 @@ else{
 
  rbtn.addEventListener("click",()=>{
         dbtn.style.display="none";
-        h2.style.display="none";
+        h1.style.display="none";
         qrimg.style.display="none"
        rbtn.style.display="none";
    
      btn.style.display="block";
-     h1.style.display="block";
+     h2.style.display="block";
      inputfeild.style.display="block";
      inputfeild.value=" ";
      
