@@ -6,6 +6,12 @@
 
 body{
     background-color: #142d4c;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.b{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +19,7 @@ body{
 
 .box{
     background-color: white;
+   
     
     height: 300px;
     width: 500px;
@@ -27,7 +34,7 @@ body{
     padding: 30px;
 }
 
-button{
+#btn{
     width: 400px;
     height: 30px;
     font-size: larger;
@@ -42,7 +49,7 @@ button{
 
 }
 
-button:hover{
+#btn:hover{
     border: #142d4c solid;
     border-radius: 3%;
 }
@@ -64,4 +71,47 @@ input:hover{
     border: #142d4c solid;
     border-radius: 3%;
     text-align: center;
+}
+
+.popup{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#dbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+     height: 60px;
+    width: 200px;
+    margin-left: 150px;
+    border-radius: 3%;
+font-size: larger;
+    background-color:#ececec ;
+    border-radius: 2%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;}
+
+#rbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+     height: 60px;
+    width: 200px;
+    margin-left: 150px;
+    border-radius: 3%;
+font-size: larger;
+    background-color:#ececec ;
+    border-radius: 2%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;}
+
+#dtn:hover{
+    border: orangered solid;
+    border-radius: 3%;
 }
